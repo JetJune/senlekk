@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#topHead {
+    background-color: #232D3F;
+    margin-top: 0;
+    padding: 0.3px;
+    color: white;
+    text-align: center;
+}
+
+#logo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+#icon {
+    color: #E5CFF7;
+}
+
+.corp{
+    display: flex;
+    font-family: Roboto;
+}
+
+.section1, .section2{
+    width: 50%;
+    height: 89.5vh;
+}
+
+.section1 {
+    text-align: center;
+    background-color: #232D3F;
+    color: white;
+}
+
+.section2 {
+    background: url('images/foodimage.jpg'), no-repeat;
+}
+
+.saisis {
+    border: 2px black solid;
+    width: 60%;
+    border-radius: 5%;
+    padding: 5px;
+    background-color: #F3FDE8;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.accBut {
+    background-color: #F7E987;
+    border: none;
+    width: 20%;
+    padding: 1.1%;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}.accBut:hover{background-color: #; color: black;}
+
+@media (max-width : 900px) {
+    .contInput{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contInput{
+        flex-direction: ;
+    }
+
+    .accBut {
+        background-color: #F7E987;
+        border: none;
+        border-radius: 5%;
+        width: 40%;
+        padding: 1.1%;
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bold;
+}
+/*flex-basis, float, container > * {}, order : 0;, flex-wrap; justify-content; align-items; align-self;/
